@@ -1,0 +1,125 @@
+/* SECTION CONHECIMENTOS*/
+#container{
+    /* background-color: #272752; */
+    /* border: 1px solid red; */
+    margin: 20px;
+    display: flex;
+    padding: 20px;
+    /* border: 1px solid red;
+     */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#conhecimentos{
+    /* border: 1px solid green; */
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 100px;
+    /* background-color: #272752; */
+}
+
+#conhecimentos h2{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+#container .cardconhecimentos{
+    background-color: #474757;
+    color: white;
+    border-radius: 10px;
+    margin-left: 30px;
+    padding: 20px;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    box-shadow: 0px 0px 5px 2px gray;
+}
+
+#container .cardconhecimentos h3{
+    color: rgb(174, 196, 236);
+}
+
+#container .cardconhecimentos img{
+    width: 150px;
+    height: 170px;
+    margin-top: 2px;
+}
+
+
+
+/* SECTION CURSOS EM DESTAQUE */
+
+#cursocontainer{
+    /* background-color: #272752; */
+    /* border: 1px solid red; */
+    margin: 20px;
+    display: flex;
+    padding: 20px;
+    /* border: 1px solid red; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#cursosdestaque{
+    /* border: 1px solid green; */
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 100px;
+    /* background-color: #272752; */
+}
+
+#cursosdestaque h2{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+#cursocontainer .cardcursos{
+    background-color: #474757;
+    color: white;
+    border-radius: 10px;
+    margin-left: 30px;
+    padding: 20px;
+    width: 250px;
+    height: 265px;
+    text-align: center;
+    box-shadow: 0px 0px 5px 2px gray;
+}
+
+#cursocontainer .cardcursos .descricaocursos{
+    display: none;
+}
+
+#cursocontainer .cardcursos:hover{
+    cursor: pointer;
+    border: 1px solid #84c4e9;
+    transition: 1s;
+}
+
+#cursocontainer .cardcursos:hover img, .cardcursos:hover h3, .cardcursos:hover p{
+    display: none;
+}
+
+#cursocontainer .cardcursos:hover .descricaocursos h3, .cardcursos:hover .descricaocursos p {
+    display: inline-block;
+}
+
+#cursocontainer .cardcursos:hover .descricaocursos{
+    display: inline-block;
+}
+
+#cursocontainer .cardcursos h3{
+    color: rgb(174, 196, 236);
+}
+
+#cursocontainer .cardcursos img{
+    width: 150px;
+    height: 170px;
+    margin-top: 0px;
+}

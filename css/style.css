@@ -1,0 +1,121 @@
+@keyframes borderc{
+    25%{border-bottom-color: #b1daf1;}
+    50%{border-bottom-color: #84c4e9;}
+    75%{border-bottom-color: #5b8daa;}
+    90%{border-bottom-color: #84c4e9;}
+    100%{border-color: #ffffff;}
+}
+
+
+/* CABEÇALHOS */
+
+*{
+    margin: 0px;
+}
+
+body{
+    background:#070731;
+    color: rgb(174, 196, 236);
+}
+
+#cabecalho{
+    border-bottom: 3px solid #ffffff;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    animation: borderc 10s infinite;
+    transition: 2s;
+}
+
+#cabecalho #c-titulop{
+    margin-left: 70px;
+}
+
+#cabecalho #c-titulop #c-titulo{
+    font-size: 40px;
+}
+
+
+#cabecalho #c-perfil img{
+    width: 80px;
+    border-radius: 100px;
+    border: 3px solid rgb(174, 196, 236);
+}
+
+#cabecalho #c-links{
+    font-size: 20px;
+    margin-right: 70px;
+}
+
+#cabecalho #c-links a{
+    text-decoration: none;
+    color: rgb(174, 196, 236);
+    margin-left: 15px;
+}
+
+#cabecalho #c-links a:hover{
+    transition: 1s;
+    border-bottom: 3px solid #ffffff;
+    border-radius: 10px;
+}
+
+
+/* HEADLINE */
+
+
+#headline{
+    /* border: 1px solid red; */
+    padding-top: 60px;
+    /* background-color: #151544; */
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding-bottom: 20px;
+    /* border-bottom: 1px solid red; */
+}
+
+#headline img{
+    width: 200px;
+    /* border: 1px solid red; */
+    margin-left: 80px;
+}
+
+#headline #h-descricao{
+    position: absolute;
+    left: 400px;
+    justify-content: center;
+}
+
+#headline #h-descricao h2{
+    font-size: 35px;
+    color: white;
+}
+
+#headline #h-descricao .ca-wpp{
+    position: absolute;
+    border: none;
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    left: 0px;
+    margin-top: 10px;
+    background: #bbe6ff;
+    cursor: pointer;
+}
+
+#headline #h-descricao a .ca-wpp:hover{
+    transition: 1s;
+    background: #5b8daa;
+    color: white;
+}
+
+#headline #h-descricao .ca-wpp a{
+    color: black;
+    text-decoration: none;
+}
